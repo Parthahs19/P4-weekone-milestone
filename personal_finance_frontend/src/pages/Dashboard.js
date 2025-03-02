@@ -5,6 +5,7 @@ import Investment from "./Investment";
 import Analytics from "./Analytics";
 import Income from "./Income";
 import BudgetTools from "./BudgetTools";
+import ProfileDropdown from "../components/ProfileDropdown";
 
 const Dashboard = () => {
   const [activeSection, setActiveSection] = useState("expense");
@@ -14,7 +15,7 @@ const Dashboard = () => {
       {/* Header */}
       <header className="header">
         <div className="logo">💳 FinTrack_</div>
-        <div className="profile">Profile</div>
+        <ProfileDropdown/>
       </header>
 
       {/* Sidebar */}
