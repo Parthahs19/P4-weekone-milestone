@@ -1,0 +1,118 @@
+.about-page {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background-color: #4682b4;
+    color: #001f3f;
+    padding: 60px 20px;
+    margin-bottom: 50px;
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+    color: #f9f9f9;
+  }
+  
+  .about-hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #001f3f;
+  }
+  
+  /* About Content */
+  .about-content {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    width: 1000px;
+    justify-self: center;
+    margin: 0px 50px 50px;
+  }
+  
+  .about-content h2 {
+    color: #001f3f;
+    margin-bottom: 10px;
+  }
+  
+  /* Features Section */
+  .features-section {
+    background: white;
+    padding: 50px 20px;
+  }
+  
+  .features-section h2 {
+    color: #001f3f;
+    margin-bottom: 20px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+  }
+  
+  /* Why Choose Us */
+  .why-choose-us {
+    padding: 50px 20px;
+    background: #eef2f3;
+  }
+  
+  .why-choose-us h2 {
+    color:#001f3f;
+    margin-bottom: 10px;
+  }
+  
+  .why-choose-us ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .why-choose-us ul li {
+    font-size: 1.1rem;
+    padding: 8px 0;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .cta-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .cta-section button {
+    background-color: white !important;
+    border: 2px solid #4682b4 !important; /* Steel Blue Border */
+    color: #4682b4 !important;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .cta-section button:hover {
+    background-color: #4682b4 !important; /* Steel Blue */
+    border: 2px solid #4682b4 !important;
+    color: white !important;
+    transform: scale(1.2);
+  }
+  
