@@ -1,0 +1,207 @@
+/* General Styles */
+.home-page {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #002244; /* Dark Blue */
+    text-align: center;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #002244; /* Dark Blue */
+}
+
+/* Right-Aligned Login & Signup Buttons */
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+
+/* Common Button Style */
+.nav-btn {
+    background-color: transparent;
+    border: 2px solid #66a3ff; /* Light Blue Border */
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navbar Buttons */
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+
+/* Common Button Style */
+.nav-btn {
+    background-color: transparent !important;
+    border: 2px solid #66a3ff !important; /* Light Blue Border */
+    color: white !important;
+    padding: 10px 20px !important;
+    font-weight: bold !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+/* Hover Effect */
+.nav-btn:hover {
+    background-color: white !important;
+    color: #002244 !important; /* Dark Blue */
+    border: 2px solid white !important;
+}
+
+/* Login Button Specific */
+.login-btn {
+    border: 2px solid white !important; /* White border */
+    color: white !important;
+}
+
+/* Sign Up Button */
+.signup-btn {
+    border: 2px solid white !important; /* White border */
+    color: white !important;
+}
+
+/* Sign Up Hover Effect */
+.signup-btn:hover {
+    background-color: white !important;
+    color: #002244 !important; /* Dark Blue */
+    border: 2px solid white !important;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background-color: #d0e1f9; /* Light Blue Complementary */
+    padding: 100px 20px;
+    color: #002244;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Hero Section Button Correction */
+.hero-button {
+    background-color: white !important;
+    border: 2px solid #4682b4 !important; /* Steel Blue Border */
+    color: #4682b4 !important;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: background 0.3s, border 0.3s, color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #4682b4 !important; /* Steel Blue */
+    border: 2px solid #4682b4 !important;
+    color: white !important;
+}
+
+/* Image Cards */
+.imageCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+/* Features Section */
+/* Wrapper for full section */
+.features-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 20px;
+    margin-bottom: 75px;
+}
+
+/* Centered Box */
+.features-box {
+    max-width: 500px; /* Content-wrapped width */
+    padding: 30px;
+    background-color: white; /* White box */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title Styling */
+.features-title {
+    font-size: 2rem;
+    color: #002244; /* Dark Blue */
+    margin-bottom: 15px;
+}
+
+/* Description Styling */
+.features-desc {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.features-button {
+    background-color: transparent;
+    border: 2px solid #66a3ff; /* Light Blue Border */
+    color: #002244;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.features-button:hover {
+    background-color: #4682b4; /* Steel Blue */
+    border: 2px solid #4682b4;
+    color: white;
+}
+
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 50px 20px;
+    background-color: #eef1f7;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.testimonial-card h6 {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #002244;
+}
+
+/* Footer */
+.footer1 {
+    background-color: #002244;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
