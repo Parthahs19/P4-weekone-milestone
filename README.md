@@ -38,7 +38,6 @@ FinTrack/
 ### **1. Clone the Repository**
 ```sh
 git clone https://github.com/Parthahs19/P4-weekone-milestone.git
-cd FinTrack
 ```
 
 ### **2. Install Dependencies**
